@@ -1,5 +1,5 @@
 site_name: stglance
-site_description: `stglance` is a small collection of `streamlit` widgets (for machine learning) that you can include in your streamlit app.
+site_description: stglance is a small collection of streamlit widgets (for machine learning) that you can include in your streamlit app.
 site_author: Soumendra Dhanee
 
 repo_url: https://github.com/soumendra/stglance

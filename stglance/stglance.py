@@ -11,7 +11,7 @@ from sklearn.model_selection import TimeSeriesSplit
 from streamlit_pandas_profiling import st_profile_report
 
 
-def display_data(df):
+def display_data(df: pd.DataFrame):
     st.markdown(f"**{df.shape[0]}** rows and **{df.shape[1]}** columns")
     st.write(df)
     col1, col2 = st.beta_columns(2)
