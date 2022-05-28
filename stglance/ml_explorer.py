@@ -14,7 +14,7 @@ from .stglance import (
 
 st.set_page_config(layout="wide")
 
-st.sidebar.markdown("# stglance app")
+st.sidebar.markdown("# stglance sample app")
 st.sidebar.markdown("## Upload data")
 uploaded_csv = st.sidebar.file_uploader("Upload CSV", type="csv", key="csv")
 

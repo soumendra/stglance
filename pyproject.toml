@@ -10,7 +10,7 @@ homepage = "https://github.com/soumendra/stglance"
 repository = "https://github.com/soumendra/stglance"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.8,<3.11"
 pandas = ">= 1.2.5"
 plotnine = ">= 0.8.0"
 pydantic = ">= 1.8.2"

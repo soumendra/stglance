@@ -1,4 +1,3 @@
-from .ml_explorer import tabular_app
 from .stglance import (
     display_baselinerf,
     display_data,
@@ -8,3 +7,4 @@ from .stglance import (
     display_pandas_profile,
     display_summary,
 )
+from .ml_explorer import tabular_app

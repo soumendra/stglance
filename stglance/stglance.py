@@ -1,7 +1,8 @@
 import matplotlib.pyplot as plt
 import missingno as msno
 import numpy as np
-import pandas_profiling
+
+# import pandas_profiling # this causes segfault!
 import plotnine as p9
 import scipy as sp
 import streamlit as st
@@ -11,7 +12,7 @@ from sklearn.model_selection import TimeSeriesSplit
 from streamlit_pandas_profiling import st_profile_report
 
 
-def display_data(df: pd.DataFrame):
+def display_data(df):
     st.markdown(f"**{df.shape[0]}** rows and **{df.shape[1]}** columns")
     st.write(df)
     col1, col2 = st.beta_columns(2)
